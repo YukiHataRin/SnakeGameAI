@@ -28,7 +28,6 @@ if __name__ == "__main__":
     parser.add_argument("--width", type=int, default=12, help="Number of horizontal grids")
     parser.add_argument("--speed", type=int, default=30, help="Speed of the game")
     parser.add_argument("--games", type=int, default=1, help="Number of the game plays")
-    parser.add_argument
 
     args = parser.parse_args()
     test(args.model_path, args.height * 20, args.width * 20, args.speed, args.games)
